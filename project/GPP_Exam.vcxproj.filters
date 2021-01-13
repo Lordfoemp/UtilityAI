@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Brain.cpp">
+      <Filter>Agents\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="EBehaviorTree.cpp">
+      <Filter>Elite</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Agents\Brain\Utility Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentNormal.cpp">
+      <Filter>Agents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Brain.h">
+      <Filter>Agents\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="EBlackboard.h">
+      <Filter>Elite</Filter>
+    </ClInclude>
+    <ClInclude Include="EBehaviorTree.h">
+      <Filter>Elite</Filter>
+    </ClInclude>
+    <ClInclude Include="EDecisionMaking.h">
+      <Filter>Elite</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours.h">
+      <Filter>Agents\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Agents\Brain\Utility Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentNormal.h">
+      <Filter>Agents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Agents">
+      <UniqueIdentifier>{23e2b7db-3f39-4d1c-937c-c82e8c755ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory">
+      <UniqueIdentifier>{c34fbf08-2c16-48db-9d75-c10b9742bb1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elite">
+      <UniqueIdentifier>{6845f8fb-8fc4-42c2-bb2e-8a1519227c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{cdb79239-c54a-4719-9de7-a4fdcae3fa9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Agents\Brain">
+      <UniqueIdentifier>{af2b9aff-90fc-4665-839b-4f5e5e7ed7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Agents\Brain\Utility Theory">
+      <UniqueIdentifier>{bc3a1053-c2c1-4dfa-920a-d2f7c3b99081}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
